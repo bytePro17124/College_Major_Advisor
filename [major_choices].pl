@@ -1,6 +1,7 @@
 % Matthew Early | me298414@ohio.edu
 % CS4800 Artificial Intelligence | Fall 16-17
 % Assignment 5 | Colleg Major Advisory Prolog Program
+
 major(psychology) :- helper(no), leader(no), creator(no), outdoors(no), data_processor(no).
 major(statistics) :- helper(no), leader(no), creator(no), outdoors(no), data_processor(yes).
 major(forestry) :- helper(no), leader(no), creator(no), outdoors(yes), data_processor(no).

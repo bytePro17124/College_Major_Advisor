@@ -1,0 +1,72 @@
+Script started on Wed Oct 12 08:38:13 2016
+bash-3.2$ ad  pl -f [major_choices\].pl 
+[major_choices].pl compiled, 0.00 sec, 8,412 bytes.
+Welcome to SWI-Prolog (Version 3.1.2)
+Copyright (c) 1993-1998 University of Amsterdam.  All rights reserved.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+1 ?- advise_major.
+
+Note that his program only accepts plain 'yes.' or 'no.' answers.
+
+
+Q1/5: Would you prefer to do something that is helpful to others? (yes/no): yes.
+
+Q2/5: Do you enjoy being a leader or organizer? (yes/no): no.
+
+Q3/5: Is it important to be in a major that allows creative freedom? (yes/no): yes.
+
+Q4/5: Do you prefer to be outdoors over indoors? (yes/no): no.
+
+Q5/5: Do you enjoy processing data and working with technology? (yes/no): yes.
+
+
+In your case, we recommend you go for a major in -> chemical_engineering
+
+
+Yes
+2 ?- advise_major.
+
+Note that his program only accepts plain 'yes.' or 'no.' answers.
+
+
+Q1/5: Would you prefer to do something that is helpful to others? (yes/no): no.
+
+Q2/5: Do you enjoy being a leader or organizer? (yes/no): no.
+
+Q3/5: Is it important to be in a major that allows creative freedom? (yes/no): no.
+
+Q4/5: Do you prefer to be outdoors over indoors? (yes/no): yes.
+
+Q5/5: Do you enjoy processing data and working with technology? (yes/no): yes.
+
+
+In your case, we recommend you go for a major in -> anthropology_and_archaeology
+
+
+Yes
+3 ?- advise_major       .
+
+Note that his program only accepts plain 'yes.' or 'no.' answers.
+
+
+Q1/5: Would you prefer to do something that is helpful to others? (yes/no): yes.
+
+Q2/5: Do you enjoy being a leader or organizer? (yes/no): yes.
+
+Q3/5: Is it important to be in a major that allows creative freedom? (yes/no): yes.
+
+Q4/5: Do you prefer to be outdoors over indoors? (yes/no): no.
+
+Q5/5: Do you enjoy processing data and working with technology? (yes/no): no.
+
+
+In your case, we recommend you go for a major in -> fine_arts
+
+
+Yes
+4 ?- halt.
+bash-3.2$ exit
+
+script done on Wed Oct 12 08:39:58 2016
